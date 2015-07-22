@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -Wall -g -std=c11 -lmpfr -lgmp ~/projects/sequence_complexity/lib/complexity.c -o ~/projects/sequence_complexity/bin/complexity && valgrind ~/projects/sequence_complexity/bin/complexity

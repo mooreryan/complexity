@@ -1,0 +1,4 @@
+#!/bin/bash
+dir=~/projects/sequence_complexity/lib
+base=$dir/complexity
+gcc -Wall -c $base.c -o $base.o && gcc -lmpfr -lgmp -shared -o $base.so $base.o

@@ -1,1 +1,4 @@
 test_files/output/*
+bin/complexity*
+lib/*.o
+lib/*.so

@@ -10,3 +10,10 @@ Gems
 
 - `parse_fasta`
 - `ffi`
+
+## Get it working ##
+
+Run `bin/compile_for_ffi` to set up the `.o` and `.so` files.
+
+Assuming you have the `FFI` gem installed already, you should be able
+to run `./complexity.rb --help` with no problems.

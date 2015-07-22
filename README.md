@@ -11,6 +11,11 @@ Gems
 - `parse_fasta`
 - `ffi`
 
+C libraries
+
+- `libmpfr` (The GNU MPFR Library http://www.mpfr.org/)
+- `libgmp` (The GNU Multiple Precision Arithmetic Library https://gmplib.org/)
+
 ## Get it working ##
 
 Run `bin/compile_for_ffi` to set up the `.o` and `.so` files.
